@@ -1,0 +1,65 @@
+/*reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* custom properties */
+:root {
+  --bg-dark: rgb(37, 41, 58);
+  --clr-title: rgb(51, 57, 80);
+  --clr-text: rgb(116, 123, 149);
+  --clr-btn: rgb(81, 117, 255);
+  --clr-btn-hover: rgb(130, 156, 255);
+  --clr-danger: rgb(240, 91, 91);
+  --fs-h1: 3.5rem;
+  --fs-h2: 1.25rem;
+  --fs-h3: 1rem;
+  --fs-text: 1.125rem;
+  --lh-h1: 4rem;
+  --lh-h2-text: 1.75rem;
+  --lh-h3: 3rem;
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--clr-title);
+  font-weight: var(--fw-bold);
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2-text);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  line-height: var(--lh-h3);
+}
+
+p {
+  font-size: var(--fs-text);
+  line-height: var(--lh-h2-text);
+  color: var(--clr-text);
+  font-weight: var(--fw-regular);
+}
