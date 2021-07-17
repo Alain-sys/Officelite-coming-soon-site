@@ -10,10 +10,10 @@
 /* custom properties */
 :root {
   --bg-dark: rgb(37, 41, 58);
+  --bg-btn: rgb(81, 117, 255);
+  --bg-btn-hover: rgb(130, 156, 255);
   --clr-title: rgb(51, 57, 80);
   --clr-text: rgb(116, 123, 149);
-  --clr-btn: rgb(81, 117, 255);
-  --clr-btn-hover: rgb(130, 156, 255);
   --clr-danger: rgb(240, 91, 91);
   --fs-h1: 3.5rem;
   --fs-h2: 1.25rem;
@@ -63,3 +63,59 @@ p {
   color: var(--clr-text);
   font-weight: var(--fw-regular);
 }
+/**** img top body ****/
+.bg-pattern-body {
+  position: absolute;
+  top: -26.2rem;
+  right: -21.8rem;
+  z-index: -1;
+}
+
+.container {
+  margin: 5.2rem 10.3rem 5.6rem 10.3rem;
+}
+
+/**** section hero  ****/
+.hero {
+  display: flex;
+  margin-top: 6.3rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-right: 5.9rem;
+}
+
+.hero-content-title {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  color: var(--clr-title);
+  font-weight: var(--fw-bold);
+}
+
+.hero-content-description {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.hero-content-redirection {
+  background-color: var(--bg-btn);
+  color: rgb(255, 255, 255);
+  font-weight: var(--fw-bold);
+  font-size: 1rem;
+  padding: 1rem 2.2rem 1rem 2.2rem;
+  border: 0 solid;
+  border-radius: 28px;
+  box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+}
+
+.hero-content-redirection:hover {
+  background-color: var(--bg-btn-hover);
+}
+
+/****Section modal price****/
