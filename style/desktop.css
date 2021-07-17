@@ -72,7 +72,15 @@ p {
 }
 
 .container {
-  margin: 5.2rem 10.3rem 5.6rem 10.3rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+/****Header****/
+header {
+  margin-top: 5rem;
 }
 
 /**** section hero  ****/
