@@ -86,19 +86,18 @@ header {
 /**** section hero  ****/
 .hero {
   display: flex;
+  align-items: center;
   margin-top: 6.3rem;
 }
 
 .hero-content {
   display: flex;
   flex-direction: column;
-  align-self: center;
   margin-right: 5.9rem;
 }
 
 .hero-content-title {
   display: flex;
-  flex-wrap: wrap;
   font-size: 3.5rem;
   line-height: 4rem;
   color: var(--clr-title);
@@ -107,7 +106,6 @@ header {
 
 .hero-content-description {
   display: flex;
-  flex-wrap: wrap;
   margin: 1.5rem 0 2rem 0;
 }
 
@@ -127,3 +125,31 @@ header {
 }
 
 /****Section modal price****/
+
+@media all and (max-width: 1260px) {
+  /**** img top body ****/
+  .bg-pattern-body {
+    width: 900px;
+    min-height: 900px;
+    top: -18rem;
+    right: -20rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .hero-content {
+    margin-right: 3rem;
+  }
+
+  .hero-content-title {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .hero-img {
+    min-height: 430px;
+    width: 375px;
+  }
+}

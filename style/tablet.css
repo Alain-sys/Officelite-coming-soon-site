@@ -1,0 +1,39 @@
+@media all and (max-width: 768px) {
+  :root {
+    --fs-text: 1rem;
+  }
+
+  /**** img top body ****/
+  .bg-pattern-body {
+    width: 666px;
+    min-height: 666px;
+    top: -10.25rem;
+    right: -18rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+  /****Header****/
+  header {
+    margin-top: 4.5rem;
+  }
+
+  /**** section hero  ****/
+  .hero {
+    margin-top: 6.5rem;
+  }
+
+  .hero-content {
+    margin-right: 4rem;
+  }
+
+  .hero-content-title {
+    line-height: 3rem;
+  }
+
+  .hero-img {
+    min-height: 314px;
+    width: 281px;
+  }
+}
