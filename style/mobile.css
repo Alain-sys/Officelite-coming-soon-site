@@ -1,0 +1,26 @@
+@media all and (max-width: 375px) {
+  /**** img top body ****/
+  .bg-pattern-body {
+    width: 458px;
+    min-height: 458px;
+  }
+
+  /****Header****/
+  header {
+    margin-top: 2.8rem;
+  }
+
+  /**** section hero  ****/
+  .hero {
+    margin-top: 5rem;
+  }
+
+  .hero-content {
+    margin-top: 3rem;
+  }
+
+  .hero-img {
+    width: 240px;
+    min-height: 260px;
+  }
+}

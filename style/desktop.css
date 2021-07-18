@@ -71,6 +71,7 @@ p {
   z-index: -1;
 }
 
+/****Container****/
 .container {
   display: flex;
   flex-direction: column;
@@ -140,7 +141,7 @@ header {
   }
 
   .hero-content {
-    margin-right: 3rem;
+    margin-right: 2rem;
   }
 
   .hero-content-title {
@@ -149,7 +150,7 @@ header {
   }
 
   .hero-img {
-    min-height: 430px;
-    width: 375px;
+    min-height: 480px;
+    width: 420px;
   }
 }
