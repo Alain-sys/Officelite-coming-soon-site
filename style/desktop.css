@@ -149,13 +149,15 @@ header {
   position: relative;
   background-color: rgb(81, 117, 255);
   overflow: hidden;
+  z-index: 0;
 }
 
 .features.middle > img {
   position: absolute;
-  top: -24rem;
+  top: -26.5rem;
   left: 50%;
   transform: translate(-50%);
+  z-index: -1;
 }
 
 .features.middle .color {
@@ -179,7 +181,7 @@ header {
   margin: 3.5rem 0 2rem 0;
 }
 
-.f-redirection {
+.f-links {
   background-color: rgba(81, 117, 255, 0.15);
   color: var(--bg-btn);
   font-weight: var(--fw-bold);
@@ -187,9 +189,10 @@ header {
   padding: 1rem 2.2rem 1rem 2.2rem;
   border: 0 solid;
   border-radius: 28px;
+  text-decoration: none;
 }
 
-.f-redirection.middle-color {
+.f-links.middle-color {
   background-color: rgb(255, 255, 255);
 }
 
