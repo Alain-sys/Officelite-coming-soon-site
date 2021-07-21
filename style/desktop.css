@@ -18,7 +18,7 @@
   --fs-h1: 3.5rem;
   --fs-h2: 1.25rem;
   --fs-h3: 1rem;
-  --fs-text: 1.125rem;
+  --fs-text: 1rem;
   --lh-h1: 4rem;
   --lh-h2-text: 1.75rem;
   --lh-h3: 3rem;
@@ -32,7 +32,9 @@ html {
 
 body {
   overflow-x: hidden;
+  position: relative;
   font-family: 'Kumbh Sans', sans-serif;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 80%, rgba(37, 41, 58, 1) 20%);
 }
 
 h1,
@@ -108,6 +110,7 @@ header {
 .hero-content-description {
   display: flex;
   margin: 1.5rem 0 2rem 0;
+  font-size: 1.125rem;
 }
 
 .hero-content-redirection {
@@ -128,7 +131,8 @@ header {
 /****Section modal price****/
 .modal-price {
   display: flex;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 50%, rgba(37, 41, 58, 1) 50%);
+  justify-content: space-between;
+  margin-top: 11.5rem;
 }
 
 .features {
@@ -136,14 +140,43 @@ header {
   flex-direction: column;
   text-align: center;
   padding: 2.5rem 4rem 2.5rem 4rem;
-  background: #ffffff;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
   border-radius: 13px;
+}
+
+.features.middle {
+  position: relative;
+  background-color: rgb(81, 117, 255);
+  overflow: hidden;
+}
+
+.features.middle > img {
+  position: absolute;
+  top: -24rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.features.middle .color {
+  color: rgb(255, 255, 255);
+}
+
+.features > h2 {
+  margin-bottom: 2.5rem;
 }
 
 .f-content {
   display: flex;
   flex-direction: column;
+}
+
+.f-price > p {
+  color: var(--clr-title);
+}
+
+.f-options {
+  margin: 3.5rem 0 2rem 0;
 }
 
 .f-redirection {
@@ -154,6 +187,10 @@ header {
   padding: 1rem 2.2rem 1rem 2.2rem;
   border: 0 solid;
   border-radius: 28px;
+}
+
+.f-redirection.middle-color {
+  background-color: rgb(255, 255, 255);
 }
 
 @media all and (max-width: 1260px) {
