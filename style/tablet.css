@@ -30,6 +30,7 @@
   }
 
   .hero-content-title {
+    font-style: 2.5rem;
     line-height: 3rem;
   }
 
@@ -43,54 +44,6 @@
   }
 
   /****Section modal price****/
-  /* .modal-price {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 8.75rem;
-  }
-
-  .features {
-    padding: 3rem 3rem 3rem 3rem;
-    align-items: flex-start;
-  }
-
-  .features > h2 {
-    margin-bottom: 1rem;
-  }
-
-  .features.middle {
-    margin: 1.5rem 0 1.5rem 0;
-  }
-
-  .features.middle > img {
-    position: absolute;
-    top: 50%;
-    left: 18%;
-
-    transform: translate(-50%, -50%);
-  }
-
-  .f-content {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    text-align: start;
-  }
-
-  .f-price {
-    width: 50%;
-  }
-
-  .f-options {
-    margin: 0rem 0 0rem 0rem;
-    padding-left: 2rem;
-    width: 50%;
-  }
-
-  .f-options p:nth-child(2) {
-    margin: 1rem 0 1rem 0;
-  } */
   .features {
     width: 100%;
   }
@@ -129,5 +82,52 @@
   .hero-img {
     width: 380px;
     min-height: 410px;
+  }
+
+  /****Section modal price****/
+  .features {
+    padding: 2.5rem 3.3rem 2.5rem 3.3rem;
+    align-items: center;
+    width: 100%;
+  }
+
+  .features > h2 {
+    margin-bottom: 2.5rem;
+  }
+
+  .features.middle {
+    margin: 2rem 0 2rem 0;
+  }
+
+  .features.middle > img {
+    position: absolute;
+    top: -23.6rem;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .f-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .f-price {
+    width: 100%;
+    margin-bottom: 3.5rem;
+  }
+
+  .f-options {
+    padding-left: 0rem;
+    width: 100%;
+  }
+
+  .f-options p:nth-child(2) {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .f-links {
+    margin-top: 2.9rem;
   }
 }

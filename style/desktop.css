@@ -242,14 +242,12 @@ header {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 8.75rem;
-
     align-items: center;
   }
 
   .features {
     padding: 3rem 3rem 3rem 3rem;
     align-items: flex-start;
-
     width: 80%;
   }
 
