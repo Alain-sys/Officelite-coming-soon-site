@@ -197,8 +197,16 @@ header {
   text-decoration: none;
 }
 
+.f-links:hover {
+  background-color: rgba(81, 117, 255, 0.25);
+}
+
 .f-links.middle-color {
   background-color: rgb(255, 255, 255);
+}
+
+.f-links.f-links.middle-color:hover {
+  color: var(--bg-btn-hover);
 }
 
 @media all and (max-width: 1260px) {
