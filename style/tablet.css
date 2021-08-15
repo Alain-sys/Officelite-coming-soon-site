@@ -44,6 +44,10 @@
   }
 
   /****Section modal price****/
+  .modal-price {
+    margin-top: 8.75rem;
+  }
+
   .features {
     width: 100%;
   }
@@ -85,6 +89,10 @@
   }
 
   /****Section modal price****/
+  .modal-price {
+    margin-top: 6.25rem;
+  }
+
   .features {
     padding: 2.5rem 3.3rem 2.5rem 3.3rem;
     align-items: center;
