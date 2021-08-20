@@ -138,4 +138,24 @@
   .f-links {
     margin-top: 2.9rem;
   }
+
+  .timer-units {
+    width: 4.5rem;
+    min-height: 5.75rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 4px;
+  }
+
+  .timer-units:not(:nth-child(1)) {
+    margin-left: 0.8rem;
+  }
+
+  .timer {
+    font-size: 2.5rem;
+  }
+
+  /**** img bottom body ****/
+  .bg-pattern-footer-body {
+    top: 88rem;
+  }
 }

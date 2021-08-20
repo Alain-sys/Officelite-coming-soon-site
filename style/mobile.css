@@ -23,4 +23,9 @@
     width: 240px;
     min-height: 260px;
   }
+
+  /****footer****/
+  .timer {
+    font-size: 2rem;
+  }
 }

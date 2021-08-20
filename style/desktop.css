@@ -32,9 +32,10 @@ html {
 
 body {
   overflow-x: hidden;
+  overflow-y: hidden;
   position: relative;
   font-family: 'Kumbh Sans', sans-serif;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 80%, rgba(37, 41, 58, 1) 20%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 70%, rgba(37, 41, 58, 1) 30%);
 }
 
 h1,
@@ -209,7 +210,81 @@ header {
   color: var(--bg-btn-hover);
 }
 
+/**** Footer ****/
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 0 3.5rem 0;
+}
+
+.footer-title {
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  line-height: var(--lh-h3);
+}
+
+.title-date {
+  color: var(--bg-btn);
+}
+
+.footer-timer {
+  display: flex;
+}
+
+.timer-units {
+  width: 6.18rem;
+  text-align: center;
+  padding: 1rem 1rem 0.8rem 1rem;
+  background-color: rgb(51, 57, 80);
+  border-radius: 13px;
+}
+
+.timer-units > p {
+  font-weight: bold;
+}
+
+.timer-units:not(:nth-child(1)) {
+  margin-left: 1rem;
+}
+
+.timer {
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.footer-link {
+  width: 171px;
+  text-align: center;
+  background-color: var(--bg-btn);
+  color: rgb(255, 255, 255);
+  font-weight: var(--fw-bold);
+  font-size: 1rem;
+  padding: 1rem 2.2rem 1rem 2.2rem;
+  border: 0 solid;
+  border-radius: 28px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  background-color: var(--bg-btn-hover);
+}
+
+/**** img bottom body ****/
+.bg-pattern-footer-body {
+  position: absolute;
+  z-index: -2;
+  top: 37.5rem;
+  left: -43.8rem;
+}
+
 @media all and (max-width: 1260px) {
+  body {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 58%, rgba(37, 41, 58, 1) 42%);
+  }
+
   /**** img top body ****/
   .bg-pattern-body {
     width: 900px;
@@ -285,5 +360,26 @@ header {
 
   .f-options p:nth-child(2) {
     margin: 1rem 0 1rem 0;
+  }
+
+  /****Footer****/
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 6.25rem 0 6.25rem 0;
+  }
+
+  .footer-timer {
+    margin: 0.5rem 0 3rem 0;
+  }
+
+  /**** img bottom body ****/
+  .bg-pattern-footer-body {
+    position: absolute;
+    z-index: -2;
+    top: 68rem;
+    left: 50%;
+    transform: translate(-50%);
   }
 }
