@@ -388,10 +388,6 @@ footer {
 }
 
 /**** Sign-up.html ****/
-.html-sign-up {
-  overflow: visible;
-}
-
 .body-sign-up {
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(37, 41, 58, 1) 30%);
   position: relative;
@@ -405,7 +401,7 @@ footer {
 }
 
 section.hero {
-  /* margin-bottom: 13rem; */
+  margin-bottom: 13rem;
 }
 
 .hero-content-sign-up {
