@@ -1,28 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html-sign-up" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="style/desktop.css" />
+    <link rel="stylesheet" href="style/desktop.css" />
     <link rel="stylesheet" href="style/tablet.css" />
-    <link rel="stylesheet" href="style/mobile.css" /> -->
+    <link rel="stylesheet" href="style/mobile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
 
-    <title>Frontend Mentor | Officelite coming soon site</title>
+    <title>Officelite coming soon site</title>
   </head>
-  <body>
-    Work smarter. Save time. Easily manage your projects. Get on the list and receive in-app perks available only to early subscribers. We are moving
-    into final development and getting ready for official launch soon.
-
-    <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-    Coming 4 Nov 2020
-
-    <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
-    47 Days 07 Hours 56 Min 14 Sec Name Email Address Basic Pack Free Basic Pack Free Pro Pack $9.99 Ultimate Pack $19.99 Phone Number Company Get on
-    the list
+  <body class="body-sign-up">
+    <img class="body-bg" src="img/sign-up/bg-pattern-side.svg" />
+    <main class="container">
+      <header><img src="img/shared/logo.svg" alt="" /></header>
+      <section class="hero">
+        <div class="hero-content-sign-up">
+          <div>
+            <p class="hero-content-title">Work smarter. Save time.</p>
+            <p class="hero-content-description">
+              Easily manage your projects. Get on the list and receive in-app perks available only to early subscribers. We are moving into final
+              development and getting ready for official launch soon.
+            </p>
+          </div>
+          <div>
+            <h3></h3>
+            <div></div>
+          </div>
+          <div class="sign-up-timer">
+            <h3 class="footer-title sign-up-title">Coming <span class="title-date"></span></h3>
+            <div class="footer-timer">
+              <div class="timer-units timer-units-color">
+                <span class="timer timer-color">29</span>
+                <p>days</p>
+              </div>
+              <div class="timer-units timer-units-color">
+                <span class="timer timer-color">23</span>
+                <p>hours</p>
+              </div>
+              <div class="timer-units timer-units-color">
+                <span class="timer timer-color">59</span>
+                <p>min</p>
+              </div>
+              <div class="timer-units timer-units-color">
+                <span class="timer timer-color">59</span>
+                <p>sec</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form action="">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email Address" />
+          <details class="form-menu">
+            <summary>
+              <div class="form-menu-title">
+                <span class="pack">Basic Pack</span>
+                <p class="pack-price">Free</p>
+              </div>
+              <div>
+                <img class="form-arrow" src="img/sign-up/icon-arrow-down.svg" alt="" />
+              </div>
+            </summary>
+            <div class="list-content">
+              <div class="list active">
+                <span class="pack">Basic Pack</span>
+                <p class="pack-price">Free</p>
+              </div>
+              <div class="list">
+                <span class="pack">Pro Pack</span>
+                <p class="pack-price">$9.99</p>
+              </div>
+              <div class="list">
+                <span class="pack">Ultimate Pack</span>
+                <p class="pack-price">$19.99</p>
+              </div>
+            </div>
+          </details>
+          <input type="text" placeholder="Phone Number" />
+          <input type="text" placeholder="Company" />
+          <a class="form-link" href="" alt="send the form">Get on the list</a>
+        </form>
+      </section>
+    </main>
     <script src="scripts/index.js"></script>
   </body>
 </html>

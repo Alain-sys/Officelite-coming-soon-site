@@ -35,6 +35,9 @@ body {
   overflow-y: hidden;
   position: relative;
   font-family: 'Kumbh Sans', sans-serif;
+}
+
+.body-index {
   background: linear-gradient(180deg, rgba(255, 255, 255, 1) 70%, rgba(37, 41, 58, 1) 30%);
 }
 
@@ -281,7 +284,7 @@ footer {
 }
 
 @media all and (max-width: 1260px) {
-  body {
+  .body-index {
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 58%, rgba(37, 41, 58, 1) 42%);
   }
 
@@ -382,4 +385,180 @@ footer {
     left: 50%;
     transform: translate(-50%);
   }
+}
+
+/**** Sign-up.html ****/
+.html-sign-up {
+  overflow: visible;
+}
+
+.body-sign-up {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(37, 41, 58, 1) 30%);
+  position: relative;
+}
+
+.body-bg {
+  position: absolute;
+  top: -48.5rem;
+  right: -53rem;
+  z-index: -2;
+}
+
+section.hero {
+  /* margin-bottom: 13rem; */
+}
+
+.hero-content-sign-up {
+  width: 60%;
+}
+
+.sign-up-timer {
+  padding-top: 1rem;
+}
+
+.sign-up-title {
+  color: rgb(51, 57, 80);
+}
+
+.timer-units-color {
+  background-color: rgba(81, 117, 255, 0.1);
+}
+
+.timer-units-color > p {
+  opacity: 0.5;
+}
+
+.timer-color {
+  color: rgb(81, 117, 255);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 7.8rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+  border-radius: 13px;
+  padding: 40px 42px 51px 43px;
+}
+
+input {
+  border: none;
+  color: rgba(116, 123, 149, 0.5);
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(116, 123, 149, 0.5);
+  padding: 0 0 1rem 1rem;
+}
+
+input:not(:nth-child(1)) {
+  margin-top: 1.5rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:invalid {
+  position: relative;
+  border-bottom: 1px solid rgba(240, 91, 91, 1);
+  background-image: url('../img/sign-up/icon-cross.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+details {
+  position: relative;
+  cursor: pointer;
+}
+
+.pack {
+  font-weight: var(--fw-bold);
+  margin-right: 0.5rem;
+}
+
+.pack-price {
+  font-weight: var(--fw-bold);
+}
+
+summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(116, 123, 149, 0.5);
+  padding: 1.5rem 0 1rem 1rem;
+}
+
+.form-menu-title {
+  display: flex;
+  align-items: center;
+}
+
+.form-menu-title > span {
+  margin-right: 0.5rem;
+}
+
+.form-menu[open] .form-arrow {
+  transition: 0.6s;
+  transform: rotate(180deg);
+}
+
+.form-arrow {
+  transition: 0.6s;
+  transform: rotate(0deg);
+}
+
+.list-content {
+  position: absolute;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(51, 57, 80, 0.153273);
+  box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.747077);
+  border-radius: 8px;
+}
+
+.list {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.list:not(:nth-child(3)) {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(116, 123, 149, 0.25);
+}
+
+.list:not(:nth-child(1)) {
+  margin-top: 1rem;
+}
+
+.list.active {
+  position: relative;
+}
+
+.list.active::after {
+  content: url('../img/sign-up/icon-check.svg');
+  position: absolute;
+  right: 0%;
+}
+
+.form-link {
+  margin-top: 2.5rem;
+  text-align: center;
+  background-color: var(--bg-btn);
+  color: rgb(255, 255, 255);
+  font-weight: var(--fw-bold);
+  font-size: 1rem;
+  padding: 1.2rem 2.2rem 1.2rem 2.2rem;
+  border: 0 solid;
+  border-radius: 28px;
+  box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+  text-decoration: none;
+}
+
+.form-link:hover {
+  background-color: var(--bg-btn-hover);
 }

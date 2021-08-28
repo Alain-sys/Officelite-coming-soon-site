@@ -1,7 +1,13 @@
-// Select title date and timer elements of html
+// Select elements for the timer in the footer
 let timerTitleDate = document.querySelector('.title-date');
 let timer = document.querySelectorAll('.timer');
 
+// Select elements for the options pack in the form
+let menu = document.querySelector('.form-menu');
+let menuTitle = document.querySelector('.form-menu-title');
+let list = document.getElementsByClassName('list');
+
+/*Timer section */
 // Take the local date of the user
 let countDownDate = new Date();
 
@@ -40,5 +46,27 @@ function countDown() {
   // If the countdown is to 0 add 30 days
   if (distance <= 0) {
     countDownDate.setDate(countDownDate.getDate() + 30);
+  }
+}
+
+/* Form section*/
+// Give each elements with the class "list"
+for (let i = 0; i < list.length; i++) {
+  // Listen a click on class list elements
+  list[i].addEventListener('click', () => {
+    // Remove the class "active" on list elements
+    removeClass();
+    // Add the class "active" on the class element "list" clicked
+    list[i].classList.add('active');
+    // Write the content of the class element "list" clicked in the class element "menu-title"
+    menuTitle.innerHTML = list[i].innerHTML;
+    // remove the attribute open to details for close it
+    menu.removeAttribute('open');
+  });
+}
+// Remove the class "active" on list elements
+function removeClass() {
+  for (let i = 0; i < list.length; i++) {
+    list[i].classList.remove('active');
   }
 }
