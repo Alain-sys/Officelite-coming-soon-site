@@ -7,6 +7,10 @@ let menu = document.querySelector('.form-menu');
 let menuTitle = document.querySelector('.form-menu-title');
 let list = document.getElementsByClassName('list');
 
+// Select elements for verify the content of the email and the name
+let form = document.querySelector('.sign-up-form');
+let verify = document.getElementsByClassName('verify');
+
 /*Timer section */
 // Take the local date of the user
 let countDownDate = new Date();
@@ -60,7 +64,7 @@ for (let i = 0; i < list.length; i++) {
     list[i].classList.add('active');
     // Write the content of the class element "list" clicked in the class element "menu-title"
     menuTitle.innerHTML = list[i].innerHTML;
-    // remove the attribute open to details for close it
+    // Remove the attribute open to details for close it
     menu.removeAttribute('open');
   });
 }
@@ -70,3 +74,40 @@ function removeClass() {
     list[i].classList.remove('active');
   }
 }
+
+// When the form is submitted verify if the content is not valid and empty
+form.addEventListener(
+  'submit',
+  (event) => {
+    for (let a = 0; a < verify.length; a++) {
+      if (!verify[a].validity.valid || verify[a].value.length == 0) {
+        // If the content is not valid or empty add the class "invalid" and the form is not submitted
+        verify[a].classList.add('invalid');
+        event.preventDefault();
+      }
+    }
+  },
+  false
+);
+
+// Listen to the inputs and when they're valid remove the class "invalid"
+for (let b = 0; b < verify.length; b++) {
+  verify[b].addEventListener(
+    'input',
+    () => {
+      if (verify[b].validity.valid) {
+        verify[b].classList.remove('invalid');
+      }
+    },
+    false
+  );
+}
+
+// clear inputForm when website refresh
+function clearInputForm() {
+  let inputForm = document.getElementsByClassName('inputForm');
+  for (let c = 0; c < inputForm.length; c++) {
+    inputForm[c].value = '';
+  }
+}
+clearInputForm();

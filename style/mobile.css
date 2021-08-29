@@ -28,4 +28,17 @@
   .timer {
     font-size: 2rem;
   }
+
+  /****** Sign-up.html ******/
+  .body-sign-up::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/home/bg-pattern-header.svg');
+    width: 458px;
+    min-height: 458px;
+    background-size: 458px 458px;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
