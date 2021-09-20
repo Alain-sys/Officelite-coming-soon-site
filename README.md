@@ -33,16 +33,15 @@ Users should be able to:
 
 <details>
   <summary>Desktop</summary>
-  <p align="center">
   <img src="img/Desktop-officelite-coming-soon-site.png" alt=""/>
   <img src="img/Desktop-officelite-coming-soon-site-sign-up.png" alt=""/>
-  </p>
 </details>
 
 <details>
   <summary>Tablet</summary>
   <p align="center">
     <img src="img/Tablet-officelite-coming-soon-site.png" alt=""/>
+    <br>
     <img src="img/Tablet-officelite-coming-soon-site-sign-up.png" alt=""/>
   </p>
 </details>
