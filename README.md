@@ -41,7 +41,6 @@ Users should be able to:
   <summary>Tablet</summary>
   <p align="center">
     <img src="img/Tablet-officelite-coming-soon-site.png" alt=""/>
-    <br>
     <img src="img/Tablet-officelite-coming-soon-site-sign-up.png" alt=""/>
   </p>
 </details>
