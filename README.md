@@ -31,7 +31,30 @@ Users should be able to:
 
 ### Screenshot
 
-![](img/preview.jpg)
+<details>
+  <summary>Desktop</summary>
+  <p align="center">
+  <img src="assets/Desktop-officelite-coming-soon-site.png" alt=""/>
+  <img src="assets/Desktop-officelite-coming-soon-site-sign-up.png" alt=""/>
+  </p>
+</details>
+
+<details>
+  <summary>Tablet</summary>
+  <p align="center">
+    <img src="assets/Tablet-officelite-coming-soon-site.png" alt=""/>
+    <img src="assets/Tablet-officelite-coming-soon-site-sign-up.png" alt=""/>
+  </p>
+</details>
+
+<details>
+  <summary>Mobile</summary>
+  <p align="center">
+    <img src="assets/Mobile-officelite-coming-soon-site.png" alt=""/>
+    <img src="assets/Mobile-officelite-coming-soon-site-sign-up.png" alt=""/>
+  </p>
+</details>
+
 
 ### Links
 
