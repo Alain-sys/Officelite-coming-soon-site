@@ -34,24 +34,24 @@ Users should be able to:
 <details>
   <summary>Desktop</summary>
   <p align="center">
-  <img src="assets/Desktop-officelite-coming-soon-site.png" alt=""/>
-  <img src="assets/Desktop-officelite-coming-soon-site-sign-up.png" alt=""/>
+  <img src="img/Desktop-officelite-coming-soon-site.png" alt=""/>
+  <img src="img/Desktop-officelite-coming-soon-site-sign-up.png" alt=""/>
   </p>
 </details>
 
 <details>
   <summary>Tablet</summary>
   <p align="center">
-    <img src="assets/Tablet-officelite-coming-soon-site.png" alt=""/>
-    <img src="assets/Tablet-officelite-coming-soon-site-sign-up.png" alt=""/>
+    <img src="img/Tablet-officelite-coming-soon-site.png" alt=""/>
+    <img src="img/Tablet-officelite-coming-soon-site-sign-up.png" alt=""/>
   </p>
 </details>
 
 <details>
   <summary>Mobile</summary>
   <p align="center">
-    <img src="assets/Mobile-officelite-coming-soon-site.png" alt=""/>
-    <img src="assets/Mobile-officelite-coming-soon-site-sign-up.png" alt=""/>
+    <img src="img/Mobile-officelite-coming-soon-site.png" alt=""/>
+    <img src="img/Mobile-officelite-coming-soon-site-sign-up.png" alt=""/>
   </p>
 </details>
 
@@ -91,4 +91,4 @@ I would like to progress in js.
 
 ## Acknowledgments
 
-Thanks a lot to [rzvr](https://github.com/rzvr) for his work which helped me a lot.
+Thanks to [rzvr](https://github.com/rzvr) for his work which helped me a lot.
