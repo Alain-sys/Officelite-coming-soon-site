@@ -1,6 +1,8 @@
 @media all and (max-width: 768px) {
   :root {
     --fs-text: 1rem;
+    --fs-h1: 2.5rem;
+    --lh-h1: 3rem;
   }
 
   /**** img top body ****/
@@ -27,11 +29,6 @@
 
   .hero-content {
     margin-right: 4rem;
-  }
-
-  .hero-content-title {
-    font-style: 2.5rem;
-    line-height: 3rem;
   }
 
   .hero-content-description {
