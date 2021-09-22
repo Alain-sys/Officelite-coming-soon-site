@@ -183,6 +183,12 @@ header {
   color: var(--clr-title);
 }
 
+.f-price p:nth-child(1){
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  font-weight: bold;
+}
+
 .f-options {
   margin: 3.5rem 0 2rem 0;
 }
