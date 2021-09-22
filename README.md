@@ -57,7 +57,7 @@ Users should be able to:
 ### Links
 
 - [Live Site URL](https://alain-sys.github.io/Officelite-coming-soon-site/)
-- [Solution URL](https://www.frontendmentor.io/solutions)
+- [Solution URL](https://www.frontendmentor.io/solutions/officelite-coming-soon-site-html-css-js-poRNRsInJ)
 
 ## My process
 
